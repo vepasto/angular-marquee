@@ -8,12 +8,12 @@
   ```
 
 2. Inject angularMarquee module as a dependency into your app
-  ```html
+  ```js
   var app = angular.module('myApp', ['angularMarquee']);
   ```
 
 3. Use the directive with any element
-  ```
+  ```html
   <div angular-marquee>Hello World!</div>
   ```
 
