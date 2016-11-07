@@ -29,10 +29,11 @@ Demo https://vepasto.github.io/angular-marquee/
 
 ## Contributing
 
+Please make sure all dependencies are installed ```$ npm install```
+
 ### Build
 
 ```
-$ npm install
 $ npm run build
 ```
 
