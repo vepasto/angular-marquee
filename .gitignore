@@ -32,6 +32,8 @@ jspm_packages
 
 .idea
 
+bower_components
+
 # Optional npm cache directory
 .npm
 
