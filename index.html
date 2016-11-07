@@ -7,9 +7,9 @@
       var app = angular.module('myApp', ['angularMarquee']);
     </script>
   </head>
-  <body>
-    <div angular-marquee speed="25" speed-hover="5">Hello World</div>
-    <div angular-marquee speed="100" speed-hover="10" style="width:50%; background-color:black; color:white;">Hello <br> World</div>
+  <body ng-init="speed1=25; speed2=100; speedHover2=10;">
+    <div angular-marquee speed="speed">Hello World</div>
+    <div angular-marquee speed="speed2" speed-hover="speedHover2" style="width:50%; background-color:black; color:white;">Hello <br> World</div>
     <div angular-marquee>Hello World</div>
   </body>
 </html>
