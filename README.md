@@ -1,5 +1,8 @@
 # Angular Marquee
+
+Scrolls html element contents with custom speed. Slows down on hover. 
 Demo https://vepasto.github.io/angular-marquee/
+
 ## Usage 
 
 1. Include script
