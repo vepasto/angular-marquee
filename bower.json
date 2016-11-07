@@ -1,6 +1,6 @@
 {
   "name": "angular-marquee",
-  "description": "Scrolls html element contents with custom speed. Slows down on hover.  Demo https://vepasto.github.io/angular-marquee/",
+  "description": "Marquee plugin for Angular. Scrolls element contents. Demo https://vepasto.github.io/angular-marquee/",
   "main": "index.js",
   "license": "MIT",
   "homepage": "https://github.com/vepasto/angular-marquee",
