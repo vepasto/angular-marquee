@@ -1,11 +1,14 @@
 {
   "name": "angular-marquee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scrolls html element contents with custom speed. Slows down on hover.  Demo https://vepasto.github.io/angular-marquee/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build"
+    "build": "gulp build",
+    "bump-patch": "gulp patch",
+    "bump-minor": "gulp minor",
+    "bump-major": "gulp major"
   },
   "repository": {
     "type": "git",
@@ -19,7 +22,11 @@
   "homepage": "https://github.com/vepasto/angular-marquee#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-bump": "^2.5.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-git": "^1.12.0",
     "gulp-rename": "^1.2.2",
+    "gulp-tag-version": "^1.3.0",
     "gulp-uglify": "^2.0.0"
   }
 }
