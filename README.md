@@ -35,3 +35,14 @@ Demo https://vepasto.github.io/angular-marquee/
 $ npm install
 $ npm run build
 ```
+
+### Bump Version
+
+Available importance options
+* patch     # makes v0.1.0 → v0.1.1
+* feature   # makes v0.1.1 → v0.2.0
+* release   # makes v0.2.1 → v1.0.0
+
+```
+$ npm run bump-<importance> 
+```
