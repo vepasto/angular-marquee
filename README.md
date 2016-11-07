@@ -13,8 +13,13 @@
   ```
 
 3. Use the directive with any element
+  * default
   ```html
   <div angular-marquee>Hello World!</div>
+  ```
+  * custom speed
+  ```html
+  <div angular-marquee speed="marqueSpeed" speed-hover="marqueSpeedHover">Hello World!</div>
   ```
 
 4. Get a cup of coffee and enjoy!
