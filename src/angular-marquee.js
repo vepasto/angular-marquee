@@ -1,3 +1,6 @@
+/*!
+ * Angular Marquee - https://github.com/vepasto/angular-marquee
+ */
 (function () {
 	'use strict';
 

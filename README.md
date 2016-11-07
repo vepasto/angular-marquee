@@ -26,3 +26,12 @@ Demo https://vepasto.github.io/angular-marquee/
   ```
 
 4. Get a cup of coffee and enjoy!
+
+## Contributing
+
+### Build
+
+```
+$ npm install
+$ npm run build
+```
