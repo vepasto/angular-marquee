@@ -1,1 +1,15 @@
-Hello
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="src/angular-marquee.js"></script>
+    <script>
+      var app = angular.module('myApp', ['angularMarquee']);
+    </script>
+  </head>
+  <body>
+    <div angular-marquee>Hello World</div>
+    <div angular-marquee style="width:50%; background-color:black; color:white;">Hello <br> World</div>
+    <div angular-marquee style="width:100%;">Hello World</div>
+  </body>
+</html>
