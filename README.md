@@ -1,5 +1,5 @@
 # Angular Marquee
-
+Demo https://vepasto.github.io/angular-marquee/
 ## Usage 
 
 1. Include script
